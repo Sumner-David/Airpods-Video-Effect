@@ -12,6 +12,7 @@ body {
 
 .intro {
     height:100vh;
+    width:100vw;
 }
 
 .intro video {
@@ -39,4 +40,14 @@ section h1 {
     padding-top:300px;
     text-align:center;
     font-size:80px;
+}
+
+#superWrapper {
+     height: 100%;
+}
+
+.scrollContainer {
+     overflow-y: scroll;
+     overflow-x: hidden;
+     width: 100%;
 }
