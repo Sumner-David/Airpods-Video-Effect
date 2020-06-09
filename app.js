@@ -15,7 +15,7 @@ const controller = new ScrollMagic.Controller();
 //SCENES
 const scene = new ScrollMagic.Scene({
     //Length of scroll. usually 1000px: 1sec of video
-    duration: 15000,
+    duration: 9000,
     
     triggerElement: intro,
     triggerHook: 0
@@ -43,4 +43,4 @@ setInterval (() => {
     console.log(scrollpos,delay);
 
     video.currentTime = delay;
-},100);
+},33);
